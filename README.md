@@ -26,13 +26,21 @@ End the program.
 ## PROGRAM:
 
 #To write a python program for reading content from a CSV file.
-#Developed by: santhosh kumar b
+
+#Developed by: santhosh kumar B
+
 #Register Number: 212223230193
+
 def copy(fname,newfile):
+
     with open(fname) as fp:
+    
         with open(newfile,'w') as fp1:
+        
             data=fp.read()
+            
             fp1.write(data)
+            
 copy("file1.txt","kml.txt")            
 
 ### OUTPUT:
